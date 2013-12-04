@@ -1,0 +1,34 @@
+{
+    "name": "simpleMagnifier",
+    "description": "A magnifier plugin",
+    "version": "1.0.0",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/ivkremer/jquery-simple-magnifier/blob/master/LICENSE"
+        }
+    ],
+    "title": "Simple Magnifier",
+    "keywords": [
+        "span",
+        "text",
+        "magnify"
+    ],
+    "author": {
+        "url": "http://kremer.pro",
+        "name": "Ilya Kremer"
+    },
+    "maintainers": [
+        {
+            "name": "Ilya Kremer",
+            "url": "https://github.com/ivkremer"
+        }
+    ],
+    "download": "https://github.com/ivkremer/jquery-simple-magnifier",
+    "homepage": "https://github.com/ivkremer/jquery-simple-magnifier",
+    "docs": "https://github.com/ivkremer/jquery-simple-magnifier",
+    "bugs": "https://github.com/ivkremer/jquery-simple-magnifier/issues",
+    "dependencies": {
+        "jquery": ">=1.4"
+    }
+}

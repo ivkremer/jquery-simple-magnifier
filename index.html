@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Magnifier modal</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery.smagnifier.js"></script>
+		<link rel="stylesheet" href="css/smagnifier.css" />
+		<style>
+			body {
+				color: #333;
+				font-family: Arial, sans-serif;
+				font-size: 100%;
+				background-color: #F5F5F9;
+			}
+		</style>
+	</head>
+	<body>
+		<p><span id="example01">+1340-569-455-8988</span></p>
+		<p><span id="example02">info@example.com</span></p>
+		<script>$(function() {
+			$('#example01').smagnifier({speed: 600});
+			$('#example02').smagnifier({speed: 150, opacity: 0.6});
+		});</script>
+	</body>
+</html>
